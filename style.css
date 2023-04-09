@@ -1,0 +1,248 @@
+@media(min-width:700px){
+  .navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+  #icons {
+    color: #ccd6f6;
+    position: fixed;
+    left: 60px;
+    bottom: 10px;
+  }
+  #icon_color {
+  color: #ccd6f6;
+  }
+  .grad1 {
+    width: 100%;
+    background-color: rgb(1, 14, 32); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(42, 8, 71) , rgb(62, 10, 68));
+  }
+  .img1{
+    border-radius: 9px;
+    margin-left: -45px; 
+    height:412px;
+    width: 96%;
+  }
+  .c1{
+    border-radius: 12px;
+  }
+  .conz1 {
+    background-image: linear-gradient(to right, rgb(200, 161, 234) , rgb(219, 207, 221));
+    height: 513px;
+    width: 100%;
+    transition: 0.27s;
+    margin-left: 0px;
+    margin-top: 53px;
+    padding-top: 59px;
+    padding-left: 80px;
+    box-shadow: 0px 20px 80px 0px rgb(29, 28, 28);
+  }
+  .conz1:hover {
+    box-shadow: 7px 0px 15px rgb(21, 21, 21), 7px 0px 15px rgb(38, 37, 37), 7px 0px 15px rgb(32, 31, 31);
+    margin-bottom: 10px;
+  }
+
+  .p1 {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    margin: 160px -9px 90px;
+  }
+  .h-p1{
+    font-size:  19px ;
+  }
+  .h-p3{
+    font-size: 34px;
+  }
+
+  #about{
+    margin-top: 60px;
+  }
+  .cardx {
+    border-radius: 10px;
+    border: none;
+    transition: 0.27s;
+    height:380px
+  }
+
+  .cardx:hover {
+    margin-top: -3px;
+    box-shadow: 7px 0px 15px rgb(21, 20, 20), 7px 0px 15px rgb(34, 33, 33), 7px 0px 15px rgb(25, 24, 24);
+    margin-bottom: 3px;
+  }
+
+  .icons{
+  margin-left: 20px;
+  }
+}
+
+@media(max-width:992px){
+  .c1{
+    width: 50%;
+    height: 538px;
+  }
+    
+  .img1{
+    border-radius: 9px;
+    margin-top: -12px;
+    margin-left: 6px; 
+    height:254px;
+    width: 67%;
+   }
+   .p1 {
+    margin-top: 18px;
+    margin-left: 6px;
+    font-size: -17px;
+   }
+   .h-p1{
+    font-size: 20px;
+   }
+   .h-p2{
+   font-size: 21px;
+   }
+   .h-p3{
+    font-size: 25px;
+   }
+   /* About */
+   .p2{
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  /* Projects */
+  #contact{
+    margin-top: 10PX;
+  }
+
+}
+
+
+@media(max-width:700px){
+
+  #icons {
+    color: #ccd6f6;
+    position: fixed;
+    left: 60px;
+    bottom: 10px;
+  }
+  #icon_color {
+    color: #ccd6f6;
+  }
+  .grad1 {
+    width: 100%;
+    background-color: rgb(1, 14, 32); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(42, 8, 71) , rgb(68, 12, 74));
+  }
+  .conz1 {
+    background-image: linear-gradient(to right, rgb(200, 161, 234) , rgb(219, 207, 221));
+    height: 438px;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 0px;
+  }
+  .img1{
+    margin-left: 48px; 
+    height: 236px;
+  }
+  .p1 {
+    margin-top: 0px;
+    margin-left: 39px;
+    font-size: -17px;
+  }
+  .h-p1{
+    font-size:  15px ;
+  }
+  .h-p3{
+    font-size: 22px;
+  }
+
+      /* About */
+  #about{
+    margin-top: -12px;
+  }
+  .p2{
+    font-size: 15px;
+  }
+
+      /* Projects */
+  .card-title{
+    font-size: 17px;
+  }
+  .card-text{
+    font-size: 14px;
+  }
+  .card4{
+    height: 294px;
+  }
+  .b4{
+    margin-top: 25px;
+  }
+} 
+
+@media(max-width:545px){
+  /* Home */
+  .img1 {
+    margin-left: 40px;
+    height: 218px;
+  }
+  .p1 {
+    margin-top: 0px;
+    margin-left: 18px;
+  }
+  .b4{
+    margin-top: -12px;
+  }
+  .card1{
+    margin-left: 20px;
+  }
+  .cardtop{
+    margin-top: 40px;
+  }
+}
+
+@media(max-width:420px){
+  .conz1{
+    height: 450px;
+    width: 100%;
+  }
+  .img1 {
+    margin-left: 27px;
+    height: 200px;
+  }
+  .p1{
+    margin-left: 10px;
+  }
+  .h-p2{
+    font-size: 15px;
+  }
+  .h-p4{
+    text-align: center;
+  }
+  .card1{
+    margin-left: 14px;
+    width: 100%;
+  }
+}
+
+@media(max-width:370px){
+  .p1{
+    margin-top: -47px;
+  }
+  .h-p1{
+    font-size: 13px;
+  }
+  .h-p2{
+    font-size: 13px;
+  }
+  .h-p3{
+    font-size: 13px;
+  }
+  .conz1{
+    height: 414px;
+    width: 130% ;
+    margin-left: -19px;
+  }
+  #about{
+    margin-top: -44px;
+  }
+}
