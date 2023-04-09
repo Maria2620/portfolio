@@ -7,7 +7,7 @@
   #icons {
     color: #ccd6f6;
     position: fixed;
-    left: 60px;
+    left: 26px;
     bottom: 10px;
   }
   #icon_color {
@@ -30,12 +30,12 @@
   .conz1 {
     background-image: linear-gradient(to right, rgb(200, 161, 234) , rgb(219, 207, 221));
     height: 513px;
-    width: 100%;
+    width: 84%;
     transition: 0.27s;
-    margin-left: 0px;
+    margin-left: 100px;
     margin-top: 53px;
     padding-top: 59px;
-    padding-left: 80px;
+    padding-left: 145px;
     box-shadow: 0px 20px 80px 0px rgb(29, 28, 28);
   }
   .conz1:hover {
@@ -72,7 +72,12 @@
   }
 
   .icons{
-  margin-left: 20px;
+    margin-left: 10px;
+  }
+
+  .progress-bar {
+    background-color: rgb(34, 222, 222);
+    height: 20px;
   }
 }
 
@@ -107,6 +112,8 @@
    .p2{
     font-size: 20px;
     text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
   }
 
   /* Projects */
@@ -225,24 +232,35 @@
 }
 
 @media(max-width:370px){
+  #icons{
+    margin-left: -42px;
+  }
+  .img1{
+    margin-left: 47px;
+    height: 180px;
+  }
   .p1{
-    margin-top: -47px;
+    margin-top: -7px;
+    margin-left: 51px;
   }
   .h-p1{
-    font-size: 13px;
+    font-size: 15px;
   }
   .h-p2{
-    font-size: 13px;
+    font-size: 15px;
   }
   .h-p3{
-    font-size: 13px;
+    font-size: 24px;
+  }
+  .p2{
+    text-align: non-justify;
   }
   .conz1{
-    height: 414px;
+    height: 363px;
     width: 130% ;
-    margin-left: -19px;
+    margin-left: -36px;
   }
   #about{
-    margin-top: -44px;
+    margin-top: -124px;
   }
 }
