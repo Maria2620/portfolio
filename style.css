@@ -7,7 +7,7 @@
   #icons {
     color: #ccd6f6;
     position: fixed;
-    left: 26px;
+    left: 13px;
     bottom: 10px;
   }
   #icon_color {
@@ -30,9 +30,9 @@
   .conz1 {
     background-image: linear-gradient(to right, rgb(200, 161, 234) , rgb(219, 207, 221));
     height: 513px;
-    width: 84%;
+    width: 75%;
     transition: 0.27s;
-    margin-left: 100px;
+    margin-left: 112px;
     margin-top: 53px;
     padding-top: 59px;
     padding-left: 145px;
@@ -57,6 +57,9 @@
 
   #about{
     margin-top: 60px;
+  }
+  .p2{
+    font-size: 19px;
   }
   .cardx {
     border-radius: 10px;
@@ -129,7 +132,7 @@
   #icons {
     color: #ccd6f6;
     position: fixed;
-    left: 60px;
+    left: 11px;
     bottom: 10px;
   }
   #icon_color {
@@ -213,11 +216,11 @@
     width: 100%;
   }
   .img1 {
-    margin-left: 27px;
+    margin-left: 44px;
     height: 200px;
   }
   .p1{
-    margin-left: 10px;
+    margin-left: 40px;
   }
   .h-p2{
     font-size: 15px;
@@ -229,11 +232,12 @@
     margin-left: 14px;
     width: 100%;
   }
+  
 }
 
 @media(max-width:370px){
   #icons{
-    margin-left: -42px;
+    margin-left: 0px;
   }
   .img1{
     margin-left: 47px;
